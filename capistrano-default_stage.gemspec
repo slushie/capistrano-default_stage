@@ -10,7 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["slushie@gmail.com"]
 
   spec.summary       = %q{Set a default stage in Capistrano 3}
+  spec.description   = %q{Set a default stage in Capistrano 3}
   spec.homepage      = "https://github.com/slushie/capistrano-default_stage"
+  spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^spec/}) }
   spec.require_paths = ["lib"]
